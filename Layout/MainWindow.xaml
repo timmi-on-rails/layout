@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow">
+    <Grid Width="1000" Height="1000">
+		<StackPanel>
+			<Rectangle Fill="Blue" Width="500" Height="200" />
+			<Rectangle Fill="Red" Width="500" Height="200" />
+		</StackPanel>
     </Grid>
 </Window>
